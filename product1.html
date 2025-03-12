@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Fresh Apples</title>
+    <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#featured">Featured Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-menu">
+                <input type="text" placeholder="Search">
+                <button id="cart-btn" onclick="location.href='cart.html'">Cart (0)</button> <!-- Cart button navigates to cart.html -->
+            </div>
+        </nav>
+        <h1>Fresh Apples</h1>
+    </header>
+    
+    <main>
+        <section>
+            <img src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834" alt="Fresh Apples" style="width: 300px;">
+            <p>A pack of fresh organic apples.</p>
+            <p>Price: $2.00</p>
+            <button id="add-to-cart">Add to Cart</button> <!-- Keep this button -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Grocery Store</p>
+    </footer>
+
+    <script src="grocery.js"></script>
+</body>
+</html>

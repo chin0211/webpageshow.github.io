@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="grocery.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-menu"></div>
+                <input type="text" placeholder="Search">
+                <button id="cart-btn" onclick="location.href='cart.html'">Cart (0)</button>
+                <button id="theme-toggle" onclick="toggleTheme()">Dark Mode</button> <!-- Dark/Light Mode Toggle -->
+
+        </nav>
+        <h1>Welcome to the Grocery Store</h1>
+    </header>
+
+    <main> 
+        <!-- home section -->
+        <section id = "home">
+            <h2>Welcome to our store!</h2>
+            <p>Explore a wide range of products!</p>
+
+        </section>
+
+        <!-- featured products-->
+        <section id="featured">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834" alt="Product 1">
+                    <h3>Fresh Fruits</h3>
+                    <p>A pack of fresh organic fruits.</p>
+                    <p>Price: $2.00</p>
+                    <button class="read-more-btn" onclick="location.href='product1.html'">Read More</button>
+                </div>
+                <div class="product">
+                    <img src="https://live-production.wcms.abc-cdn.net.au/d4cad1b635352e3a57e8a13d85d7fcb3?impolicy=wcms_crop_resize&cropH=1209&cropW=2150&xPos=0&yPos=112&width=862&height=485" alt="Product 2">
+                    <h3> Fresh Meat</h3>
+                    <p> Without processing</p>
+                    <p>Price: $65.00</p>
+                    <button class="read-more-btn" onclick="location.href='product2.html'">Read More </button>
+                </div>
+            </div>
+
+            <div id="weather"></div>
+            
+            
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 Grocery Store</p>
+    </footer>
+    
+    <script src="grocery.js"> </script>
+</body>
+</html>

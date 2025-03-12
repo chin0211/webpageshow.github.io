@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title> Product Details - Fresh Apples </title>
+    <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href ="featured">Featured Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-menu">
+                <input type="text" placeholder="Search">
+                <button id="cart-btn" onclick="location.href='cart.html'">Cart (0)</button> <!--Cart button navigates to cart.html-->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section> 
+            <img src="https://live-production.wcms.abc-cdn.net.au/d4cad1b635352e3a57e8a13d85d7fcb3?impolicy=wcms_crop_resize&cropH=1209&cropW=2150&xPos=0&yPos=112&width=862&height=485" alt="Wagyu" style="width: 300px;">
+            <h1>Wagyu </h1>
+            <p>Made in Japan</p>
+            <p>Price: $65.00</p>
+            <button id="add-to-cart-wagyu">Add to cart</button>
+        </section>
+
+        <section>
+            <img src="https://www.lovefoodhatewaste.com/sites/default/files/styles/16_9_two_column/public/2022-08/Pork-sh1419942758.jpg.webp?itok=_Ow0IXe6" alt="Pork Belly" style="width: 300px;">
+            <h1>Pork Belly</h1>
+            <p>A pack of fresh organic apples</p>
+            <p>Price: $25.00</p>
+            <button id="add-to-cart-pork">Add to cart</button>
+        </section>
+        
+        <section>
+            <img src="https://www.meatemporium.com.au/cdn/shop/products/Lamb_Cutlets_37.jpg?v=1631616903" alt="Lamb Cutlets" style="width: 300px;">
+            <h1>Lamb Cutlets</h1>
+            <p>Grass Fed Premium Lamb</p>
+            <p>Price: $35.00</p>
+            <button id="add-to-cart-lamb">Add to cart</button>
+        </section>
+
+        <section>
+            <img src="https://www.dinneratthezoo.com/wp-content/uploads/2018/10/roasted-chicken-4-500x500.jpg" alt="Roasted Chicken" style="width: 300px;">
+            <h1>Roasted Chicken</h1>
+            <p>Marinated with lot of spice</p>
+            <p>Price: $15.00</p>
+            <button id="add-to-cart-chicken">Add to cart</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Grocery Store</p>
+    </footer>
+
+    <script src="grocery.js"></script>
+</body>
+</html>
